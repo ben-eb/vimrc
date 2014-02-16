@@ -28,3 +28,5 @@ let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 let g:UltiSnipsSnippetDirectories=['UltiSnips', 'vimrc/snippets']
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>

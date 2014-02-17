@@ -16,6 +16,7 @@ Bundle 'editorconfig/editorconfig-vim'
 Bundle 'gmarik/vundle'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'kien/ctrlp.vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-scripts/Align'
 

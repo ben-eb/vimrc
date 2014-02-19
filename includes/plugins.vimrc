@@ -32,3 +32,4 @@ let g:UltiSnipsSnippetDirectories=['UltiSnips', 'vimrc/snippets']
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.swp$', '\.DS_Store$']

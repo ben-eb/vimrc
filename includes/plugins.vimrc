@@ -33,3 +33,6 @@ let g:UltiSnipsSnippetDirectories=['UltiSnips', 'vimrc/snippets']
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.swp$', '\.DS_Store$']
+
+" Enable syntax highlighting for twig templates
+au BufNewFile,BufRead *.twig set ft=jinja

@@ -17,3 +17,9 @@ git clone git@github.com:ben-eb/vimrc.git ~/.vim/vimrc
 ```
 
 Then run `:BundleInstall` inside Vim to pull down all of the dependencies. Note that YouCompleteMe needs some further configuration, [see the repository](https://github.com/Valloric/YouCompleteMe) for more information.
+
+To get MatchTag to work with Twig filetypes;
+
+```
+echo 'runtime! ftplugin/html.vim' > ~/.vim/bundle/MatchTag/ftplugin/twig.vim
+```

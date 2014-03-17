@@ -30,3 +30,5 @@ set cursorline
 " Show filename in title
 set title
 
+" Set md files to be read as Markdown
+au BufRead,BufNewFile *.md set filetype=markdown

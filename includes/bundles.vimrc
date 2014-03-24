@@ -7,8 +7,6 @@ call vundle#rc()
 
 " Plugins
 Bundle 'SirVer/ultisnips'
-Bundle 'Townk/vim-autoclose'
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
